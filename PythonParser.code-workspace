@@ -1,0 +1,37 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"dotnetAcquisitionExtension.enablePreviewFeatures": true,
+		"csharp.inlayHints.enableInlayHintsForImplicitObjectCreation": true,
+		"csharp.inlayHints.enableInlayHintsForImplicitVariableTypes": true,
+		"csharp.inlayHints.enableInlayHintsForLambdaParameterTypes": true,
+		"csharp.inlayHints.enableInlayHintsForTypes": true,
+		"dotnet.inlayHints.enableInlayHintsForIndexerParameters": true,
+		"dotnet.inlayHints.enableInlayHintsForLiteralParameters": true,
+		"dotnet.inlayHints.enableInlayHintsForObjectCreationParameters": true,
+		"dotnet.inlayHints.enableInlayHintsForOtherParameters": true,
+		"dotnet.inlayHints.enableInlayHintsForParameters": true,
+		"dotnet.inlayHints.suppressInlayHintsForParametersThatDifferOnlyBySuffix": true,
+		"dotnet.inlayHints.suppressInlayHintsForParametersThatMatchArgumentName": true,
+		"dotnet.inlayHints.suppressInlayHintsForParametersThatMatchMethodIntent": true,
+		"dotnet.formatting.organizeImportsOnFormat": true,
+		"csharp.debug.console": "externalTerminal",
+		"csharp.debug.expressionEvaluationOptions.showRawValues": true,
+		"json.format.keepLines": true,
+		"javascript.referencesCodeLens.enabled": true,
+		"javascript.referencesCodeLens.showOnAllFunctions": true,
+		"javascript.preferGoToSourceDefinition": true,
+		"typescript.implementationsCodeLens.enabled": true,
+		"typescript.experimental.useTsgo": true,
+		"typescript.implementationsCodeLens.showOnInterfaceMethods": true,
+		"typescript.locale": "en",
+		"typescript.preferGoToSourceDefinition": true,
+		"typescript.referencesCodeLens.enabled": true,
+		"typescript.referencesCodeLens.showOnAllFunctions": true,
+		"dotnet.projects.enableFileBasedPrograms": true
+	}
+}
