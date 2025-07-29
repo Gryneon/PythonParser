@@ -2,10 +2,13 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"name": "Specifications",
+			"path": "../Specifications"
 		}
 	],
 	"settings": {
-		"dotnetAcquisitionExtension.enablePreviewFeatures": true,
 		"csharp.inlayHints.enableInlayHintsForImplicitObjectCreation": true,
 		"csharp.inlayHints.enableInlayHintsForImplicitVariableTypes": true,
 		"csharp.inlayHints.enableInlayHintsForLambdaParameterTypes": true,
@@ -19,19 +22,27 @@
 		"dotnet.inlayHints.suppressInlayHintsForParametersThatMatchArgumentName": true,
 		"dotnet.inlayHints.suppressInlayHintsForParametersThatMatchMethodIntent": true,
 		"dotnet.formatting.organizeImportsOnFormat": true,
-		"csharp.debug.console": "externalTerminal",
+		"csharp.debug.console": "internalConsole",
 		"csharp.debug.expressionEvaluationOptions.showRawValues": true,
-		"json.format.keepLines": true,
 		"javascript.referencesCodeLens.enabled": true,
 		"javascript.referencesCodeLens.showOnAllFunctions": true,
 		"javascript.preferGoToSourceDefinition": true,
 		"typescript.implementationsCodeLens.enabled": true,
 		"typescript.experimental.useTsgo": true,
 		"typescript.implementationsCodeLens.showOnInterfaceMethods": true,
-		"typescript.locale": "en",
+		"typescript.locale": "auto",
 		"typescript.preferGoToSourceDefinition": true,
 		"typescript.referencesCodeLens.enabled": true,
 		"typescript.referencesCodeLens.showOnAllFunctions": true,
-		"dotnet.projects.enableFileBasedPrograms": true
+		"dotnet.projects.enableFileBasedPrograms": true,
+		"dotnet.automaticallySyncWithActiveItem": true,
+		"dotnet.testWindow.enableTestExplorerDiff": true,
+		"dotnet.useLegacyDotnetResolution": false,
+		"containers.volumes.groupBy": "VolumeName",
+		"css.lint.ieHack": "warning",
+		"less.format.spaceAroundSelectorSeparator": true,
+		"scss.lint.duplicateProperties": "warning",
+		"data.preview.create.json.files": true,
+		"data.preview.create.text.files": true,
 	}
 }
